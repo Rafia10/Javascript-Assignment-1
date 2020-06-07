@@ -1,0 +1,140 @@
+.nav-item{
+    color:white !important;
+    font-weight: bold;
+
+}
+.my-carousel{
+    margin-top:-120px;
+}
+.my-nav{
+    z-index: 999;
+    background: none;
+    border:0;
+    border-radius: 0;
+}
+#intro{
+    font-style: italic;
+    font-size: 23px;
+    text-align: justify;
+  
+}
+#go-top{
+    position:fixed;
+    bottom:50px;
+    right:30px;
+    color:white;
+    
+}
+#email{
+    color:red;
+    font-size: 20px;
+    font-style: italic;
+}
+#food{
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+}
+.card-body{
+    text-align: center;
+    height:100px
+}
+
+/* .container {
+    position: relative;
+  } */
+  
+  /* Bottom right text */
+  .bradcam_area h3 {
+    font-size: 72px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: "Satisfy", cursive;
+   
+}
+/* .card{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+} */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+.cover-slides{
+	height: 100vh;
+}
+#text{
+    margin-top:0px;
+    position:absolute
+}
+.nav-item:hover{
+
+ border-radius: 10px;
+ background-color: orangered;
+ 
+}
+#logo {
+   height:70px;
+   width:100px
+}
+#special{
+    color:orange;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-display: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;;
+}
+.btn:hover{
+    background-color: orangered !important;
+    
+}
+@media only screen and(max-width:600px){
+    .row{
+      
+       width:100% !important;
+       /* display:block;
+       margin-left:auto;
+       margin-right:auto; */
+       
+    }
+}
+.card{
+    margin-right: 30px !important;
+    width:250px !important;
+    height:350px !important;
+    margin-top: 15px !important;
+}
+#raf{
+    font-style: italic;
+    color:red
+}
+.category{
+    height:100px !important;
+}
+#category{
+    height:190px !important;
+}
+.dropdown-menu{
+    background-color: orange !important;
+}
+.dropdown-item:hover{
+    background-color: orangered !important;
+}
+#p1,#p2{
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-display: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align: justify;
+   
+}
